@@ -1,0 +1,47 @@
+/* line 11, ../../compass/sass/styles.scss */
+h1, h2, h3 {
+  color: #80AA00;
+}
+
+/* line 15, ../../compass/sass/styles.scss */
+.box {
+  margin: 0 auto 20px;
+  border: 1px solid #c7c7c7;
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* line 22, ../../compass/sass/styles.scss */
+.modal {
+  position: absolute;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  margin-left: -310px;
+  border: 5px solid #80AA00;
+  width: 620px;
+  padding: 10px;
+}
+
+/* line 37, ../../compass/sass/styles.scss */
+.tabs {
+  height: 27px;
+  padding: 0 10px;
+}
+/* line 41, ../../compass/sass/styles.scss */
+.tabs li {
+  float: left;
+  height: 23px;
+  overflow: hidden;
+  padding: 5px 2px 0;
+}
+/* line 47, ../../compass/sass/styles.scss */
+.tabs li a.active {
+  height: 24px;
+  padding: 4px 1px 0;
+}
+/* line 50, ../../compass/sass/styles.scss */
+.tabs li a.active a {
+  background: white;
+  padding: 4px 12px 5px;
+}
